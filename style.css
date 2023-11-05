@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+#card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* This will center-align the text */
+}
+
+#card img {
+    height: 350 px;
+    width: 250 px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#card h1 {
+    font-size: 40px;
+    color: dodgerblue;
+}
+
+#card h5 {
+    margin: 5px 0;
+    /* Adjust the margin */
+    font-size: 30px;
+    color: dodgerblue;
+}
+
+#btn-container {
+    margin-top: 10px;
+    /* Adjust the margin */
+}
+
+#card #Add {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: olivedrab;
+    color: white;
+    cursor: pointer;
+}
+
+#card #Remove {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    cursor: pointer
+}
